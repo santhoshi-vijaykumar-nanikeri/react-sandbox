@@ -1,0 +1,33 @@
+{
+  "name": "react-sandbox",
+  "version": "1.0.0",
+  "description": "A sandbox for experimenting with React applications, exploring front-end tools, testing components, and prototyping ideas in web development.",
+  "main": "index.tsx",
+  "repository": "https://github.com/vijaykumar-nanikeri/react-sandbox.git",
+  "author": "Vijaykumar Nanikeri",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
+    "ag-grid-community": "^35.2.0",
+    "ag-grid-react": "^35.2.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-hook-form": "^7.72.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.13.1",
+    "styled-components": "^6.3.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "@vitejs/plugin-react": "^5.1.4",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.2",
+    "vite": "^5.4.21"
+  }
+}
