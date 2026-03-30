@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 5173,
-    allowedHosts: ["jmdpc2-5173.csb.app"],
+    allowedHosts: ["3x8pn8-5173.csb.app"],
   },
   resolve: {
     alias: {
