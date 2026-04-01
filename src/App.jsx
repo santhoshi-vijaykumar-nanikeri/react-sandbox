@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./Home";
-import ContactUs from "./ContactUs";
+import UserData from "./UserData";
 
 import styles from "./App.module.css";
 
@@ -18,8 +18,8 @@ function AppRoutes() {
       <Link to="/" className={styles.menuItem}>
         Home
       </Link>
-      <Link to="/contact-us" className={styles.menuItem}>
-        Contact Us
+      <Link to="/userdata" className={styles.menuItem}>
+        UserData
       </Link>
 
       <Outlet />
@@ -31,7 +31,7 @@ function App() {
   const routes = (
     <Route path="/" element={<AppRoutes />}>
       <Route path="/" element={<Home />} />
-      <Route path="/contact-us" element={<ContactUs />} />
+      <Route path="/userdata" element={<UserData />} />
     </Route>
   );
 

@@ -1,3 +1,15 @@
 .menuItem {
   margin: 0 5px 0 5px;
 }
+.input {
+  padding: 5px;
+  border: 1px solid black;
+}
+.button {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: grey;
+}
+.error {
+  color: red;
+}
